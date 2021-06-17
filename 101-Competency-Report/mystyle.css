@@ -1,0 +1,180 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin:0;
+}
+html{
+    font-size:62.5%;
+}
+:root{
+    --primary:rgb(72, 106, 112);
+}
+body{
+font-family:'Nunito', sans-serif;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Open Sans', sans-serif;
+min-height:100vh;
+display:flex;
+flex-direction: column;
+}
+p{
+    line-height:2;
+    margin: 2rem;
+    font-size: 1.6rem;
+
+}
+h3{
+    font-size:2.5rem;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.center{
+text-align:center;
+}
+.bold-text{
+    font-weight: 700;
+}
+/*header*/
+.site-header{
+    background-color:var(--primary);
+    color:black;
+    height: 40vh;
+}
+@media(min-width:768px){
+    .site-header{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        flex-direction: column;
+        padding:5rem;
+    }
+    .site-header h1{
+        font-size:8rem;
+        width:60rem;
+    }
+}
+.site-header h1{
+    color:black;
+    font-size:3rem;
+    text-align:center;
+    text-transform: uppercase;
+    word-spacing: 1rem;
+    letter-spacing: 1rem;
+    font-weight:bold;
+
+}
+.site-header h2{
+    color:rgb(104, 4, 4);
+    font-size:2.5rem;
+    text-align:center;
+    text-decoration: none;
+    text-shadow: 2px 1px black;
+    
+}
+
+
+.icons-container{
+    text-align:center;
+    margin-top: 3rem;
+}
+.icons-container a{
+font-size: 3rem;
+margin-right: 2rem;
+}
+.icons-container a i{
+    color: white;
+}
+.icons-container i:hover{
+color:white;
+}
+.menu{
+    text-align: center;
+    margin-top: 3rem;
+}
+.menu a{
+    font-size:1.6rem;
+    text-decoration: none;
+    color: white;
+    font-weight:700;
+    margin-right:2rem;
+}
+.menu a:hover{
+    color:black
+}
+/*main*/
+.img-container{
+    width: 20rem;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2rem;
+}
+.img-container img{
+    border-radius: 50%;
+    border:5px solid white;
+    padding:5rem;
+}
+/*footer*/
+.site-footer{
+background-color:black;
+color:white;
+text-align:center;
+margin-top:auto;
+}
+footer.site-footer .icons-container a i{
+    color:white;
+    font-size:2.5rem;
+    padding-bottom:1rem;
+}
+
+.flex-wrapper{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    justify-content:space-between;
+}
+/*course page*/
+header.second-header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:var(--primary);
+    height:5vh;
+    padding:1rem;
+}
+header.second-header h1{
+    font-size:4rem;
+}
+/*Projects*/
+.project-container{
+    text-align: left;
+    margin-top: 3rem;
+    
+    
+}
+.project-container ul li{
+    font-size: 2rem;
+    line-height: 7rem;
+}
+.project-container ul li span{
+    font-size:3rem;
+    color:rgb(167, 66, 66);
+}
+/*contact*/
+.link-modify{
+   align-items: left; 
+   margin:2rem;
+}
+
+.link-modify p{
+    font-size: 2rem;
+}
+.link-modify h2{
+    font-size:3rem;
+    margin:2rem;
+    margin-right:50rem;
+    border: solid;
+    color:rgb(145, 29, 29);
+}
